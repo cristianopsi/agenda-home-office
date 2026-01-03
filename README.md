@@ -32,6 +32,7 @@ O projeto foi desenvolvido para facilitar a organização do regime híbrido de 
 
 ## 📂 Estrutura do Projeto
 agenda-home-office/
+
 │
 
 ├── app.py

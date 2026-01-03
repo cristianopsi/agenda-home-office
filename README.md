@@ -31,4 +31,16 @@ O projeto foi desenvolvido para facilitar a organização do regime híbrido de 
 ---
 
 ## 📂 Estrutura do Projeto
+agenda-home-office/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── templates/
+│ └── index.html
+│
+└── static/
+├── manifest.json
+└── service-worker.js
 

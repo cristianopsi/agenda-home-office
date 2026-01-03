@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #1e3a8a;
+}
+
+.form-regras fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+.calendario {
+    margin-top: 20px;
+}
+
+.header, .semana {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.header div {
+    font-weight: bold;
+    text-align: center;
+}
+
+.dia {
+    border: 1px solid #ddd;
+    min-height: 80px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.dia:hover {
+    background: #f1f5f9;
+}
+
+.home {
+    background: #fde68a;
+}
+
+.presencial {
+    background: #93c5fd;
+}
+
+.vazio {
+    background: #f8fafc;
+}
+
+.label {
+    font-size: 0.85em;
+    margin-top: 5px;
+}
